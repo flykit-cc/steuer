@@ -99,7 +99,7 @@ async function prefetchRates(year, from = 'USD', to = 'EUR', { cacheDir } = {}) 
         console.log(`  Fetching ECB exchange rates for ${year} (${from} -> ${to})...`);
 
         const response = await fetch(url, {
-            headers: { 'User-Agent': 'flykit-steuer (https://github.com/flykit-cc/flykit)' },
+            headers: { 'User-Agent': 'flykit-steuer (https://github.com/flykit-cc/steuer)' },
         });
         if (!response.ok) {
             throw new Error(`ECB API error: ${response.status}`);

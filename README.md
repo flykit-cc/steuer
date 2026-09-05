@@ -32,7 +32,7 @@ The plugin runs locally inside your Claude Code session. There are no flykit ser
 In Claude Code:
 
 ```
-/plugin marketplace add flykit-cc/flykit
+/plugin marketplace add flykit-cc/plugins
 /plugin install steuer@flykit
 ```
 
